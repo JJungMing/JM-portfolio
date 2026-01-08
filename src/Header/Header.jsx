@@ -5,9 +5,9 @@ function Header() {
   return (
     <header className={styles.headerWrapper}>
       <div className={styles.headerInner}>
-        <a href="#top" className={styles.brand}>JM's Portfolio</a>
+        <a href="/" className={styles.brand}>JM's Portfolio</a>
         <nav className={styles.nav}>
-          <a href="#about" className={styles.navItem}>
+          <a href="/about" className={styles.navItem}>
             ABOUT ME
           </a>
           <a href="#skills" className={styles.navItem}>

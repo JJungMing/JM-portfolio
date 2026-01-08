@@ -5,7 +5,7 @@ import Header from '../Header/Header';
 function Home() {
     return (
         <div className="home-container">
-            <Header />
+            <Header />            
         </div>
     );
 }
