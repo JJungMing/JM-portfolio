@@ -1,0 +1,12 @@
+.careerContainer {
+  padding: 80px 20px;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.careerTitle {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  text-align: center;
+}
