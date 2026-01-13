@@ -10,7 +10,7 @@
 }
 
 .headerInner {
-  max-width: 1040px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 16px 24px;
   display: flex;
@@ -23,7 +23,7 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 600;
   letter-spacing: 0.18em;
   text-decoration: none;
@@ -34,9 +34,7 @@
   display: flex;
   align-items: center;
   gap: 24px;
-  font-size: 13px;
   letter-spacing: 0.16em;
-  text-transform: uppercase;
 }
 
 .navItem {
@@ -45,6 +43,10 @@
   text-decoration: none;
   padding-bottom: 2px;
   transition: color 0.2s ease;
+  font-size: 16px;
+  border: none;
+  background: none;
+  cursor: pointer;
 }
 
 .navItem::after {
@@ -80,3 +82,4 @@
     font-size: 16px;
   }
 }
+

@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './About.module.css';
 import {
-    IoPerson,
+    IoPersonOutline,
     IoCalendarOutline,
     IoCallOutline,
     IoMailOutline,
@@ -11,8 +11,8 @@ import {
 
 
 const items = [
-    { icon: <IoPerson />, label: '이름', value: '박정민' },
-    { icon: <IoCalendarOutline />, label: '생년월일', value: '01.10.10' },
+    { icon: <IoPersonOutline />, label: '이름', value: '박정민' },
+    { icon: <IoCalendarOutline />, label: '생년월일', value: '2001.10.10' },
     { icon: <IoCallOutline />, label: '위치', value: '청주시 흥덕구' },
     { icon: <IoMailOutline />, label: '연락처', value: '010-7142-1213' },
     { icon: <IoLocationOutline />, label: '이메일', value: '1010pjm@naver.com' },

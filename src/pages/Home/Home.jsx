@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Header from '../../components/Header/Header';
 import About from '../../components/sections/About/About';
 import Skills from '../../components/sections/Skills/Skills';
+import Archiving from '../../components/sections/Archiving/Archiving';
 import Projects from '../../components/sections/Projects/Projects';
 
 
@@ -34,8 +35,8 @@ function Home() {
       <main>
         <section id="about"><About /></section>
         <section id="skills"><Skills /></section>
+        <section id="Archiving"><Archiving /></section>
         <section id="projects"><Projects /></section>
-        {/* ... */}
       </main>
     </div>
   );

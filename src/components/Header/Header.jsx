@@ -13,15 +13,10 @@ function Header() {
       <div className={styles.headerInner}>
         <a href="#top" className={styles.brand}>JM's Portfolio</a>
         <nav className={styles.nav}>
-          <button onClick={() => scrollTo("about")}>ABOUT</button>
-          <button onClick={() => scrollTo("skills")}>SKILLS</button>
-          <button onClick={() => scrollTo("projects")}>PROJECTS</button>
-          <a href="#archiving" className={styles.navItem}>
-            ARCHIVING
-          </a>
-          <a href="#career" className={styles.navItem}>
-            CAREER
-          </a>
+          <button onClick={() => scrollTo("about")} className={styles.navItem}>About</button>
+          <button onClick={() => scrollTo("skills")} className={styles.navItem}>Skills</button>
+          <button onClick={() => scrollTo("archiving")} className={styles.navItem}>Archiving</button>
+          <button onClick={() => scrollTo("projects")} className={styles.navItem}>Projects</button>
         </nav>
       </div>
     </header>
