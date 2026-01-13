@@ -4,22 +4,7 @@
     align-items: center;
     justify-content: flex-start;
     padding: 56px 36px;
-    gap: 32px;
     background-color: #D4F0F0;
-}
-
-.aboutHeaderIcon {
-    font-size: 32px;
-    color: #4a4a4a;
-}
-
-.aboutTitle {
-    font-size: 40px;
-    font-weight: 800;
-    letter-spacing: 1px;
-    color: #121212;
-    padding-bottom: 12px;
-    border-bottom: 2px solid #d9d9d9;
 }
 
 .aboutGrid {

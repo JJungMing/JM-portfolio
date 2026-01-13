@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './About.module.css';
+import SectionTitle from '../../common/SectionTitle/SectionTitle';
 import {
     IoPersonOutline,
     IoCalendarOutline,
@@ -21,11 +22,9 @@ const items = [
 
 function About() {
     return (
-        <section className={styles.aboutContainer}>
+        <section className={styles.aboutContainer} id="about">
 
-            <header className={styles.aboutHeader}>
-                <h2 className={styles.aboutTitle}>ABOUT ME</h2>
-            </header>
+            <SectionTitle children={"About Me"} />
 
             <div className={styles.aboutGrid}>
                 {items.map((item, idx) => (
