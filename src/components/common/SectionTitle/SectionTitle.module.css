@@ -1,0 +1,17 @@
+.wrapper {
+    position: relative;
+    display: table;
+    margin: 0 auto 3rem;
+}
+  
+.title {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    font-size: 3rem;
+}
+
+@media (max-width: 992px) {
+    .wrapper .title {
+        font-size: 2.5rem;
+    }
+}

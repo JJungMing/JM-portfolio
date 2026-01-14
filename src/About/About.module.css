@@ -1,5 +1,6 @@
 .aboutContainer {
     width: 100%;
+<<<<<<< Updated upstream:src/About/About.module.css
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -8,6 +9,12 @@
     padding: 56px 36px;
     gap: 32px;
     background-color: #D4F0F0;
+=======
+    
+    padding: 4rem 1.5rem;
+    margin: 0 auto;
+    background-color: #ff0000;
+>>>>>>> Stashed changes:src/components/sections/About/About.module.css
 }
 
 .aboutHeaderIcon {

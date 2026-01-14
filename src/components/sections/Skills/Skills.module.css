@@ -1,0 +1,88 @@
+.skillsContainer {
+  width: 100%;
+  max-width: 71.25rem;
+  padding: 4rem 1.5rem;
+  margin: 0 auto;
+  background-color: #ff8c00;
+}
+
+.skillsCard {
+  padding: 2.5rem 2rem;
+  border-radius: 1rem;
+  background: #ffffff;
+  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.08);
+}
+
+.skillRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 1.25rem 0;
+}
+
+.skillRow + .skillRow {
+  border-top: 1px solid #f0f0f0;
+}
+
+.skillLeft {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-width: 160px; /* 왼쪽 폭 고정(핵심) */
+}
+
+.skillIcon {
+  width: 28px;
+  height: 28px;
+}
+
+.skillTitle {
+  font-size: 16px;
+  font-weight: 700;
+  color: #111;
+  letter-spacing: 0.02em;
+}
+
+/* 태그 영역 */
+.skillTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tag {
+  font-size: 13px;
+  color: #333;
+  background: #f4f4f6;
+  border: 1px solid #ececf0;
+  padding: 0.38rem 0.6rem;
+  border-radius: 999px;
+  line-height: 1;
+}
+
+img {
+  vertical-align: middle;
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+/* 모바일 */
+@media (max-width: 768px) {
+  .skillsCard {
+    padding: 1.75rem 1.25rem;
+  }
+
+  .skillRow {
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+
+  .skillLeft {
+    min-width: auto;
+  }
+}
