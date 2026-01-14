@@ -10,8 +10,8 @@ const scrollTo = (id) => {
 function Header() {
   return (
     <header className={styles.headerWrapper}>
-      <div className={styles.headerInner}>
-        <a href="#top" className={styles.brand}>JM's Portfolio</a>
+      <div className={styles.headerInner} id="header">
+        <button onClick={() => scrollTo("header")} className={styles.headerTitle}>JM's Portfolio</button>
         <nav className={styles.nav}>
           <button onClick={() => scrollTo("about")} className={styles.navItem}>About</button>
           <button onClick={() => scrollTo("skills")} className={styles.navItem}>Skills</button>

@@ -33,6 +33,7 @@ function Home() {
     <div>
       <Header active={active} />
       <main>
+        <section id="header"><Header /></section>
         <section id="about"><About /></section>
         <section id="skills"><Skills /></section>
         <section id="Archiving"><Archiving /></section>
