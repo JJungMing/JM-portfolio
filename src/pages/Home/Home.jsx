@@ -7,7 +7,7 @@ import Archiving from '../../components/sections/Archiving/Archiving';
 import Projects from '../../components/sections/Projects/Projects';
 
 
-const SECTION_IDS = ["about", "skills", "projects", "career", "archiving"];
+const SECTION_IDS = ["header", "about", "skills", "projects", "career", "archiving"];
 
 function Home() {
   const [active, setActive] = useState("about");

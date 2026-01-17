@@ -1,15 +1,38 @@
 .archivingContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 0px 36px;
   background-color: #c3a7a7;
 }
 
-.archivingTitle {
-  font-size: 32px;
-  font-weight: 600;
-  margin-bottom: 40px;
-  text-align: center;
+.archivingContent {
+  width: 100%;
+  max-width: 71.25rem;
+  padding: 0.2rem 1.5rem 4rem;
+  margin: 0 auto;
+}
+
+.archivingInners{
+  width: 26rem;
+  padding: 2rem;
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+  text-decoration: none;
+  transition: transform .2s ease;
+}
+
+.archivingInner{
+
+}
+
+.archivingIcon{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.archivingLink{
+  margin-bottom: 1rem;
+  color: #258ddb;
+}
+
+.archivingDescription{
+  font-size: .875rem;
+  color: #444;
 }

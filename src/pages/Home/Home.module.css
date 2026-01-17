@@ -1,0 +1,8 @@
+*, :after, :before {
+  box-sizing: border-box;
+}
+  
+a {
+  color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+  text-decoration: underline;
+}
